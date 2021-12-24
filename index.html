@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title> Задание 3 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://sun9-72.userapi.com/impg/wynGBk4pRpBSBq0KhWXJFKz8XtiUgjKmZHyEhQ/zHnSLoLhaAo.jpg?size=1000x1000&quality=96&sign=c69f719d3680f549059da39bcfd16f09&type=album" type="image/png">
+    </head>
+    <body style="color:#bbb81f" link ="#e0d53b" alink ="#797979" vlink = "#e0d53b">
+       <header>
+          <div  class="header">
+              <img class = "logo" src="https://sun9-23.userapi.com/impg/pzU0VSqLq7AANqRm2yzRIphZAcxU17TudjTJog/PLQNPk61b24.jpg?size=1000x1000&quality=96&sign=ff6d873d79862c5ac6b6c189d74e4b19&type=album" alt="LOGO"  >
+              <p class="loga">Задание 3</p>
+          </div>
+        </header>
+        <main>
+        <nav class="center">
+            <div z>
+             <ul class = "menu">
+                 <li> <a href = "#Списокгиперссылок:" class="r"> Список гиперссылок</a></li>
+                 <li> <a href = "#Таблица" class="r"> Таблица</a></li>
+                 <li> <a href = "#Анкета" class="r"> Анкета</a></li>
+            </ul>
+            </div>
+        </nav>
+        <div class = "ssulki">
+        <p class = "spisok" id = "Списокгиперссылок"><i> Список гиперссылок: </i></p>
+        <ol>
+            <li>Абсолютная гиперссылка на главную страницу<a href="https://yandex.ru/" id="#anchor1"> сайта</a></li>
+            <li>Абсолютная ссылка на главную в<a href="https://www.citilink.ru/"> протоколе https</a></li>
+            <li>Ссылка на файл на сервере FTP<a href="ftp://example.com/myfile.zip"> без авторизации</a></li>
+            <li><a href="ftp://user:password@example.com/myfile.zip">С авторизацией</a></li>
+            <li>Ссылка на фрагмент страницы некоторого
+                <a href="https://ru.wikipedia.org/wiki/Гитлер,_Адольф#Смерть"> сайта</a>
+            </li>
+            <li><a href="#anchor2">Cсылка на фрагмент текущей страницы</a></li>
+            <li>Cсылка с<a href="https:// example.com/catalog/phone7page=2&perpage=15"> двумя параметрами</a></li>
+            <li>
+                <ul>
+                    <li><a title="Тематика">Оглавление</a></li>
+                    <li><a href="#anchor1" title="Основная информация">Основной материал</a></li>
+                </ul>
+            </li>
+            <li><a>Ссылка без href</a></li>
+            <li><a href="">Ссылка с пустым href</a></li>
+            <li><a href="https://www.google.ru/" rel="nofollow">переход запрещен</a></li>
+            <li><a href="https://www.google.ru/" rel="noindex">Запрещенная для индексации поисковиками</a></li>
+            <li>
+                <p>
+                    К просмотру рекомендуется данная<a  id = "anchor2" href="https://www.google.ru/"> информация</a>
+                </p>
+            </li>
+            <li>
+                <a href="https://www.google.ru/">
+                <img src="https://i.playground.ru/p/TkPZZS4ttok6gOrfTasv2w.jpeg" width="200" height="80" alt="">
+                </a>
+            </li>
+            <li>
+            <map name = "click">
+            <area shape = "rect" coords="0,0,100,100" href="https://www.youtubekids.com/" title="Детский контент">
+            <area shape = "rect" coords="180,40,80,80" href="https://www.youtube.com/results?search_query=майнкрафт" title="Взрослый контент">
+            </map>
+            <img alt="Кaртинка" src="https://sun2-4.userapi.com/impg/r-O7B8RYxc1Q7u-3REK25JHqElOLN0ijCA29lA/M3q7yAeQVg4.jpg?size=1123x570&quality=96&sign=ba22d3801bf55f62daec0ad8c0db7b11&type=album" width="200" height="80" usemap="#click">
+            </li>
+            <li><a href="./example.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+            <li><a href="./about/example.html">Относительная ссылка на страницу в каталоге about</a></li>
+            <li><a href="../example.html">Относительная на страницу в каталоге уровнем выше текущего</a></li>
+            <li><a href="../../example.html">Относительная на страницу в каталоге двумя уровнями выше текущего</a></li>
+            <li><a href="/">Сокращенная ссылка на главную</a></li>
+            <li><a href="/example.html">Сокращенная ссылка на внутреннюю</a></li>
+            </ol>
+        </div>
+        <div class="flexbox">
+        <div class="tablecol">
+          <p id = "Таблица"><b> Табллица: </b></p>
+           <table class = "table2">
+             <tr>
+                 <th class = "table1">1</th>
+                 <th class  = "table">2</th>
+                 <th class = "table1">3</th>
+                 <th class  = "table">4</th>
+                 <th class = "table1">5</th>
+
+             </tr>
+             <tr>
+                 <th class  = "table" rowspan="2">'6'</th>
+                 <th class = "table1">7</th>
+                 <th class  = "table">8</th>
+                 <th class = "table1">9</th>
+                 <th class  = "table">10</th>
+
+             </tr>
+             <tr>
+                 <th class = "table">11</th>
+                 <th class  = "table1">12</th>
+                 <th class = "table">13</th>
+                 <th class  = "table1">14</th>
+
+             </tr>
+             <tr>
+                 <th class  = "table">16</th>
+                 <th class = "table1">17</th>
+                 <th class  = "table">18</th>
+                 <th class = "table1">19</th>
+                 <th class  = "table">20</th>
+
+             </tr>
+             <tr>
+                 <th class = "table1">21</th>
+                 <th class  = "table">22</th>
+                 <th class = "table1">23</th>
+                 <th class  = "table" colspan="2">24</th>
+
+             </tr>
+            </table>
+        </div>
+
+
+        <div class="anket">
+        <h3 id = "Анкета"><em> Форма </em></h3>
+        <form>
+            <p>
+            <b> Ваше имя: </b><br>
+            <input type = "text" name = "name">
+            </p>
+            <p>
+                <b> Электронная почта: </b><br>
+                <input type = "email" name = "email">
+            </p>
+            <p>
+                <b> Дата рождения: </b><br>
+                <input type = "date" name = "birthdate">
+            </p>
+            <p>
+                <b> Пол </b><br>
+                <input type = "radio" name = "sex" value = "male">Мужской<br>
+                <input type = "radio" name = "sex" value = "female">Женский
+            </p>
+            <p>
+                <b> Количество конечностей </b><br>
+                <input type = "radio" name = "limbs" value = "2">2<br>
+                <input type = "radio" name = "limbs" value = "3">3<br>
+                <input type = "radio" name = "limbs" value = "4">4<br>
+                <input type = "radio" name = "limbs" value = "5">5
+            </p>
+            <p>
+                <b> Сверхспособности </b><br>
+                   <select>
+                    <option disabled selected>
+                        Выберете сверхспособность
+                    </option>
+                    <option value="1">бессмертие</option>
+                    <option value="2">прохождение сквозь стены</option>
+                    <option value="3">левитация</option>
+                </select>
+            </p>
+            <div class="ggg">
+            <p>
+                <b> Биография </b><br>
+                <textarea id = "Биография" wrap = "hard" name = "biography" rows = "12" cols = "36" placeholder = "Введите вашу биографию"></textarea>
+            </p>
+            </div>
+            <p>
+                <b> Ознакомлен </b><br>
+                <input type = "checkbox" name = "approval" value="agree">
+            </p>
+            <p>
+                <input type = "submit">
+            </p>
+        </form>
+    </div>
+        </div>
+        </main>
+        <footer class = "nadpis"> <h3> Здесь могла бы быть Ваша реклама! </h3> </footer>
+    </body>
+</html>
